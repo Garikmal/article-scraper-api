@@ -118,7 +118,8 @@ Visit:
 
 `Response:`
 ``` json
-{
+[
+    {
         "id": 1,
         "title": "“The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”",
         "content": "Albert Einstein",
@@ -127,7 +128,7 @@ Visit:
         "created_at": "2025-06-03T18:29:53.720042"
     },
     ...
-        {
+    {
         "id": 10,
         "title": "“A day without sunshine is like, you know, night.”",
         "content": "Steve Martin",
@@ -135,7 +136,7 @@ Visit:
         "source_id": 2,
         "created_at": "2025-06-03T18:29:54.052309"
     }
-}
+]
 ```
 
 ---
