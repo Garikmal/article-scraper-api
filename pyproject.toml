@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rest service"
+version = "0.1.0"
+description = "Serwis REST do zbierania i zarządzania zeskrobanymi artykułami z zewnętrznych stron"
+authors = ["Igor Malkovskiy <433garik433@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+sqlmodel = "^0.0.24"
+selenium = "^4.33.0"
+uvicorn = {extras = ["standard"], version = "^0.34.3"}
+pydantic = "^2.11.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
