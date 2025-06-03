@@ -27,13 +27,24 @@
 ```
  ├── app/
  │ ├── api/
+ │ │ ├── articles.py
+ │ │ ├── scraping.py
+ │ │ └── sources.py
  │ ├── models/
- ├── services/
- │ └── main.py
- ├── tests/
- ├── requirements.txt
+ │ │ ├── __init__.py
+ │ │ ├── article.py
+ │ │ └── source.py
+ │ ├── schemas/
+ │ │ ├── article.py
+ │ │ └── source.py
+ │ ├── services/
+ │ │ └── scraper.py
+ │ ├── db.py
+ │ ├── exceptions.py
+ │ └──main.py
+ ├── pyproject.toml (if using Poetry)
  ├── README.md
- └── pyproject.toml (if using Poetry)
+ └── requirements.txt
 ```
 
 ---
