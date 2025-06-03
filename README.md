@@ -139,6 +139,47 @@ Visit:
 ]
 ```
 
+### Delete Article
+
+#### `DELETE` /articles/1
+
+`Status:` 200 OK
+
+`Response:`
+``` json
+{
+    "Article deleted": 1
+}
+```
+
+### Examples for other statuses:
+
+- #### `GET` /sources/1000
+
+`Status:` 404 Not Found
+
+`Response:`
+``` json
+{
+    "detail": "Source not found"
+}
+```
+
+- #### `POST` /sources
+
+``` json
+(empty)
+```
+
+`Status:` 422 Unprocessable Entity
+
+`Response:`
+``` json
+{
+    "error": "Validation error"
+}
+```
+
 ---
 
 ### 🐞 Known Issues
