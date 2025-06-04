@@ -2,12 +2,12 @@
 
 ## 📌 Features
 
-- ✅ Create and manage news sources (`/sources`)
-- ✅ Trigger scraping from source websites using Selenium (`/sources/{id}/scrape`)
-- ✅ Store scraped articles (`/articles`)
-- ✅ Read/delete stored articles
-- ✅ Auto timestamps for creation and scraping
-- ✅ Swagger UI (`/docs`) and ReDoc (`/redoc`) documentation
+-  Create and manage news sources (`/sources`)
+-  Trigger scraping from source websites using Selenium (`/sources/{id}/scrape`)
+-  Store scraped articles (`/articles`)
+-  Read/delete stored articles
+-  Auto timestamps for creation and scraping
+-  Swagger UI (`/docs`) and ReDoc (`/redoc`) documentation
 
 ---
 
